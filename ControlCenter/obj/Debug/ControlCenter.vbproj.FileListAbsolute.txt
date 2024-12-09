@@ -1,0 +1,34 @@
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Debug\ControlCenter.exe
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Debug\ControlCenter.pdb
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Debug\ControlCenter.xml
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.ControlCenter.resources
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Resources.resources
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.vbproj.GenerateResource.Cache
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.exe
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.xml
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.pdb
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Window.resources
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.exe
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.pdb
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.xml
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ResolveAssemblyReference.cache
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.ControlCenter.resources
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Resources.resources
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Window.resources
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.vbproj.GenerateResource.Cache
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.exe
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.xml
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.pdb
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.exe
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.pdb
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\bin\Debug\ControlCenter.xml
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.ControlCenter.resources
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Resources.resources
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.Window.resources
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.vbproj.GenerateResource.Cache
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.vbproj.CoreCompileInputs.cache
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.exe
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.xml
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.pdb
+C:\Google Drive\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Debug\ControlCenter.vbproj.AssemblyReference.cache

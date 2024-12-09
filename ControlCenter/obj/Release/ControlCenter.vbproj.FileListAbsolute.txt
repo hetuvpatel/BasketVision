@@ -1,0 +1,14 @@
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Release\ControlCenter.exe
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Release\ControlCenter.pdb
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\bin\Release\ControlCenter.xml
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ResolveAssemblyReference.cache
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.ControlCenter.resources
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.Resources.resources
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.Window.resources
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.vbproj.GenerateResource.Cache
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.exe
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.xml
+C:\Users\CPS613 & CP8205\Documents\CPS613\public_html\F12\Project\ControlCenter\ControlCenter\obj\Release\ControlCenter.pdb
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Release\ControlCenter.exe
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Release\ControlCenter.xml
+C:\Transporter\Courses\CPS613\OtherMaterial\ControlCenter\ControlCenter\obj\Release\ControlCenter.pdb
