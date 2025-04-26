@@ -1,7 +1,6 @@
 # 🏀 Automated Basketball Object Detection and Tracking
 
 📄 **Project:** Final Year Capstone | Toronto Metropolitan University  
-🧑‍💻 **Team:** Hetu Patel, Eric Mergelas, Kushal Bhattad, Chris Grover
 
 ---
 
@@ -14,16 +13,17 @@ We tackle challenges like fast player movements, occlusions, dynamic camera angl
 
 ## 📚 Table of Contents
 
-- [Introduction](#introduction)
-- [System Overview](#system-overview)
-- [Tech Stack](#tech-stack)
-- [Key Components](#key-components)
-- [Results](#results)
-- [Discussion](#discussion)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
-- [References](#references)
-- [Contact](#contact)
+- [Introduction](#-introduction)
+- [System Overview](#-system-overview)
+- [Tech Stack](#-tech-stack)
+- [Key Components](#-key-components)
+- [Results](#-results)
+- [Demo Video](#-demo-video)
+- [Discussion](#-discussion)
+- [Conclusion](#-conclusion)
+- [Future Work](#-future-work)
+- [References](#-references)
+- [Contact](#-contact)
 
 ---
 
@@ -36,29 +36,29 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 
 ## ⚙️ System Overview
 
-| Module | Purpose |
-|:-------|:--------|
+| Module                 | Purpose                                                      |
+|:------------------------|:--------------------------------------------------------------|
 | **Video Preprocessing** | Frame extraction with GPU-acceleration and stride sampling (Supervision, ONNX Runtime) |
-| **Object Detection** | Custom-trained YOLOv8 model & Roboflow 3.0 Fast Model |
-| **Tracking** | ByteTrack for player and ball multi-object tracking |
+| **Object Detection**    | Custom-trained YOLOv8 model & Roboflow 3.0 Fast Model          |
+| **Tracking**            | ByteTrack for player and ball multi-object tracking            |
 | **Team Classification** | Player embedding generation (Siglip Vision), UMAP + KMeans clustering |
-| **Visualization** | Dynamic annotations for players, ball, rim, shooting actions |
+| **Visualization**       | Dynamic annotations for players, ball, rim, shooting actions  |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|:-----------|:--------|
-| Python | Core programming language |
-| YOLOv8 | Object Detection (Players, Ball, Rim) |
-| Roboflow | Dataset preparation and pretrained model |
-| Supervision Library | Frame extraction and video preprocessing |
-| ONNX Runtime (CUDA) | Model acceleration |
-| ByteTrack | Multi-object tracking |
-| Siglip Vision Model | Player image embedding |
-| UMAP + KMeans | Dimensionality reduction and team classification |
-| Google Colab | GPU training environment |
+| Technology            | Purpose                         |
+|:----------------------|:--------------------------------|
+| Python                 | Core programming language       |
+| YOLOv8                 | Object Detection (Players, Ball, Rim) |
+| Roboflow               | Dataset preparation and model   |
+| Supervision Library    | Frame extraction and video preprocessing |
+| ONNX Runtime (CUDA)    | Model acceleration              |
+| ByteTrack              | Multi-object tracking           |
+| Siglip Vision Model    | Player image embedding          |
+| UMAP + KMeans          | Dimensionality reduction and clustering |
+| Google Colab           | GPU training environment        |
 
 ---
 
@@ -75,20 +75,19 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 - **Second Setup (15 Epochs):** mAP50 94.2%, Precision 89.4%, mAP50-95 improved to 73.7%.
 
 ### 🧩 Object Detection and Tracking
-- Player, ball, and rim detected.
+- Player, ball, and rim detection using YOLOv8.
 - ByteTrack assigns consistent IDs across frames.
-- Filtering and smoothing for ball trajectory.
+- Ball trajectory smoothing and tracking.
 
 ### 🏷️ Team Classification
 - Extracted player crops → Siglip Vision embeddings.
 - Reduced embeddings to 3D via UMAP.
-- Grouped into clusters (Team 1, Team 2, Referees) with KMeans.
+- Clustered using KMeans (Team 1, Team 2, Referees).
 
 ### 🎨 Visualization
-- Blue, yellow, and magenta circles mark teams and referees.
-- Triangle annotation for ball; green ellipse for rim.
-- Red bounding boxes highlight shooting actions.
-- Unique ID labels under players for consistent tracking.
+- Blue, yellow, and magenta circles mark team players and referees.
+- Triangle for ball, green ellipse for rim.
+- Red bounding boxes for shooting action.
 
 ---
 
@@ -101,56 +100,18 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 | **Precision**   | 85.7%     | 89.4%     |
 | **Recall**      | 90.1%     | 91.0%     |
 
-- 🔥 **Real-time inference speed:** ~9.6 ms per image
-- 🏀 Improved detection for players, ball, and rim even with dynamic movement and occlusions.
-- 🎯 Successful clustering for team classification; minor overlap between referees and bystanders deemed acceptable.
+- 🔥 **Real-time inference speed:** ~9.6 ms per image.
+- 🏀 Improved detection even during dynamic player movements.
+- 🎯 Robust clustering performance with minor referee overlap.
 
 ---
 
-## 🧠 Discussion
+## 🎥 Demo Video
 
-- **Model Selection:** Fine-tuning YOLOv8 increased strict IoU detection (mAP50-95).
-- **Tracking Improvements:** Suggested re-identification modules to address ID discontinuities.
-- **Team Classification:** 3-cluster setup proved optimal for practical gameplay analytics.
+> 📢 _Watch our system in action!_
 
----
-
-## ✅ Conclusion
-
-Our system provides an **accurate**, **real-time** solution for basketball analytics, successfully addressing player motion, occlusions, and classification challenges.
-
----
-
-## 🔮 Future Work
-
-- 🏀 **Court Keypoint Detection:** Map court into a 2D plane for enhanced spatial analysis.
-- 📈 **3D Modeling:** Reconstruct player and ball trajectories in real-time.
-- 🤖 **Physics-based Trajectory Prediction:** Predict shot success based on ball motion analysis.
-
----
-
-## 📚 References
-
-1. [Frontiers in Neurorobotics](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2020.620378/full)  
-2. [Journal of Quantitative Analysis in Sports](https://www.degruyter.com/document/doi/10.1515/jqas-2020-0088/html)  
-3. [Alexandria Engineering Journal](https://www.sciencedirect.com/science/article/pii/S1110016824010706#b1)  
-4. [Adria Arbues Thesis](https://arbues6.github.io/assets/pdf/compressed_%20Thesis_AdriaArbues.pdf)  
-5. [Roboflow Supervision Library](https://github.com/roboflow/supervision)  
-6. [Hugging Face Siglip](https://huggingface.co/docs/transformers/en/model_doc/siglip)  
-7. [UMAP](https://github.com/lmcinnes/umap)  
-8. [Roboflow Sports](https://github.com/roboflow/sports)  
-9. [Roboflow Universe Basketball Dataset](https://universe.roboflow.com/ownprojects/basketball-w2xcw)  
-10. [Roboflow Football AI Notebook](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/football-ai.ipynb)
-
----
-
-## 📬 Contact
-
-- **Hetu Patel:** [hetu.patel@torontomu.ca](mailto:hetu.patel@torontomu.ca)
-- **Eric Mergelas:** [eric.mergelas@torontomu.ca](mailto:eric.mergelas@torontomu.ca)
-- **Kushal Bhattad:** [kushal.bhattad@torontomu.ca](mailto:kushal.bhattad@torontomu.ca)
-- **Chris Grover:** [c1grover@torontomu.ca](mailto:c1grover@torontomu.ca)
-
----
-
-> _"Transforming basketball analytics with AI, one frame at a time."_ 🚀🏀
+```html
+<video width="800" controls>
+  <source src="videos/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
