@@ -112,6 +112,6 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 
 ```html
 <video width="800" controls>
-  <source src="videos/demo.mp4" type="video/mp4">
+  <source src="30sec-vid_result.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
