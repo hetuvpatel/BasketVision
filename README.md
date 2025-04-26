@@ -1,6 +1,17 @@
 # 🏀 Automated Basketball Object Detection and Tracking
 
-📄 **Project:** Final Year Capstone | Toronto Metropolitan University  
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20With-Python-3776AB?style=for-the-badge&logo=python" alt="Python" />
+  <img src="https://img.shields.io/badge/Framework-YOLOv8-blueviolet?style=for-the-badge&logo=openai" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/Object%20Tracking-ByteTrack-ff69b4?style=for-the-badge" alt="ByteTrack" />
+  <img src="https://img.shields.io/badge/Dimensionality%20Reduction-UMAP-yellowgreen?style=for-the-badge" alt="UMAP" />
+  <img src="https://img.shields.io/badge/Clustering-KMeans-1abc9c?style=for-the-badge" alt="KMeans" />
+  <img src="https://img.shields.io/badge/Field-Computer%20Vision-29b6f6?style=for-the-badge&logo=opencv" alt="Computer Vision" />
+  <img src="https://img.shields.io/badge/Field-Sports%20Analytics-orange?style=for-the-badge" alt="Sports Analytics" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Active Project" />
+  <img src="https://img.shields.io/badge/Made%20With-%E2%9D%A4-red?style=for-the-badge" alt="Made with Love" />
+</p>
+
 
 ---
 
