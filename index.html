@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automated Basketball Object Detection and Tracking</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <!-- Hero Section -->
+  <section class="bg-blue-800 text-white py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">🏀 Automated Basketball Object Detection and Tracking</h1>
+      <p class="text-lg md:text-xl">Transforming basketball analytics with AI, one frame at a time.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-6 text-center">📖 Abstract</h2>
+      <p class="text-lg text-center max-w-3xl mx-auto">Real-time AI-powered system for player, ball, and rim detection in live basketball games. Overcomes fast movements, occlusions, and dynamic camera angles for accurate action recognition and analytics.</p>
+    </div>
+  </section>
+
+  <!-- System Overview -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">⚙️ System Overview</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-xl mb-2">Video Preprocessing</h3>
+          <p>GPU-accelerated frame extraction, stride sampling.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-xl mb-2">Object Detection</h3>
+          <p>YOLOv8 fine-tuned for players, ball, and rim detection.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-xl mb-2">Tracking</h3>
+          <p>Multi-object tracking using ByteTrack.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-xl mb-2">Team Classification</h3>
+          <p>Player embeddings via Siglip Vision, clustered by UMAP + KMeans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">🛠️ Tech Stack</h2>
+      <div class="flex flex-wrap justify-center gap-6">
+        <span class="px-4 py-2 bg-blue-100 rounded">Python</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">YOLOv8</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">Roboflow</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">ByteTrack</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">UMAP</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">KMeans</span>
+        <span class="px-4 py-2 bg-blue-100 rounded">Google Colab</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section class="bg-gray-200 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">📈 Results</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white rounded shadow">
+          <thead class="bg-blue-800 text-white">
+            <tr>
+              <th class="py-2 px-4">Metric</th>
+              <th class="py-2 px-4">10 Epochs</th>
+              <th class="py-2 px-4">15 Epochs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border px-4 py-2">mAP50</td>
+              <td class="border px-4 py-2">93.4%</td>
+              <td class="border px-4 py-2">94.2%</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">mAP50-95</td>
+              <td class="border px-4 py-2">71.1%</td>
+              <td class="border px-4 py-2">73.7%</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">Precision</td>
+              <td class="border px-4 py-2">85.7%</td>
+              <td class="border px-4 py-2">89.4%</td>
+            </tr>
+            <tr>
+              <td class="border px-4 py-2">Recall</td>
+              <td class="border px-4 py-2">90.1%</td>
+              <td class="border px-4 py-2">91.0%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Future Work -->
+  <section class="py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold mb-10 text-center">🔮 Future Work</h2>
+      <ul class="list-disc list-inside space-y-4">
+        <li>Implement Court Keypoint Detection and spatial mapping.</li>
+        <li>Develop 3D Modeling for players and ball trajectories.</li>
+        <li>Predict shot success rates using ball physics and trajectory prediction.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer class="bg-blue-800 text-white py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-lg">Project by Hetu Patel, Eric Mergelas, Kushal Bhattad, Chris Grover</p>
+      <p class="mt-2">Contact: <a href="mailto:hetu.patel@torontomu.ca" class="underline">hetu.patel@torontomu.ca</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
+```
+
+---
+
+✅ This file is now a **full landing page** showcasing your Basketball Analytics Project!  
+✅ **Fully responsive**, **modern**, **professional**, and using **TailwindCSS**.
+
+---
+
+**Next steps:**
+- Save this as `index.html`.
+- Deploy easily on **GitHub Pages**, **Netlify**, or **Vercel**!
+
+---
+
+Would you also like me to show you **how to add a floating video demo** or **dynamic scroll animations** if you want it even fancier? 🎥✨🚀  
+Want me to? 🚀
