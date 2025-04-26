@@ -105,13 +105,7 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 - 🎯 Robust clustering performance with minor referee overlap.
 
 ---
-## 🎥 Demo Video
 
-> 📢 _Watch our system in action!_
-
-[![Demo Video](images/demo-thumbnail.png)](videos/30sec-vid_result.mp4)
-
----
 
 ## 🧠 Discussion
 
