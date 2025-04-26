@@ -105,13 +105,60 @@ We introduce an **AI-powered system** leveraging deep learning and dimensionalit
 - 🎯 Robust clustering performance with minor referee overlap.
 
 ---
-
 ## 🎥 Demo Video
 
 > 📢 _Watch our system in action!_
 
-```html
-<video width="800" controls>
-  <source src="30sec-vid_result.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](images/demo-thumbnail.png)](videos/30sec-vid_result.mp4)
+
+---
+
+## 🧠 Discussion
+
+- **Model Selection:** Fine-tuned YOLOv8 models increased strict IoU scores (mAP50-95).
+- **Tracking Improvements:** Re-identification modules are suggested to improve handling of tracking ID discontinuities.
+- **Team Classification:** UMAP + KMeans clustering proved highly effective with a 3-cluster configuration (Team 1, Team 2, Referees).
+
+---
+
+## ✅ Conclusion
+
+Our system provides an **accurate, real-time** solution for basketball analytics, successfully addressing challenges such as fast player motion, occlusions, and gameplay event detection.
+
+---
+
+## 🔮 Future Work
+
+- 🏀 **Court Keypoint Detection:** Map basketball courts into 2D planes for enhanced spatial awareness.
+- 📈 **3D Modeling:** Reconstruct player and ball trajectories in real-time environments.
+- 🤖 **Physics-based Trajectory Prediction:** Predict shot success based on ball motion and player behavior.
+
+---
+
+## 📚 References
+
+1. [Frontiers in Neurorobotics](https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2020.620378/full)
+2. [Journal of Quantitative Analysis in Sports](https://www.degruyter.com/document/doi/10.1515/jqas-2020-0088/html)
+3. [Alexandria Engineering Journal](https://www.sciencedirect.com/science/article/pii/S1110016824010706#b1)
+4. [Adria Arbues Thesis](https://arbues6.github.io/assets/pdf/compressed_%20Thesis_AdriaArbues.pdf)
+5. [Roboflow Supervision Library](https://github.com/roboflow/supervision)
+6. [Hugging Face Siglip](https://huggingface.co/docs/transformers/en/model_doc/siglip)
+7. [UMAP](https://github.com/lmcinnes/umap)
+8. [Roboflow Sports](https://github.com/roboflow/sports)
+9. [Roboflow Universe Basketball Dataset](https://universe.roboflow.com/ownprojects/basketball-w2xcw)
+10. [Roboflow Football AI Notebook](https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/football-ai.ipynb)
+
+---
+
+## 📬 Contact
+
+- **Hetu Patel:** [hetu.patel@torontomu.ca](mailto:hetu.patel@torontomu.ca)
+- **Eric Mergelas:** [eric.mergelas@torontomu.ca](mailto:eric.mergelas@torontomu.ca)
+- **Kushal Bhattad:** [kushal.bhattad@torontomu.ca](mailto:kushal.bhattad@torontomu.ca)
+- **Chris Grover:** [c1grover@torontomu.ca](mailto:c1grover@torontomu.ca)
+
+---
+
+> _"Transforming basketball analytics with AI, one frame at a time."_ 🚀🏀
+
+
