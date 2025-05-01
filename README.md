@@ -155,15 +155,6 @@ Our system provides an **accurate, real-time** solution for basketball analytics
 
 ---
 
-## 📬 Contact
-
-- **Hetu Patel:** [hetu.patel@torontomu.ca](mailto:hetu.patel@torontomu.ca)
-- **Eric Mergelas:** [eric.mergelas@torontomu.ca](mailto:eric.mergelas@torontomu.ca)
-- **Kushal Bhattad:** [kushal.bhattad@torontomu.ca](mailto:kushal.bhattad@torontomu.ca)
-- **Chris Grover:** [c1grover@torontomu.ca](mailto:c1grover@torontomu.ca)
-
----
-
 > _"Transforming basketball analytics with AI, one frame at a time."_ 🚀🏀
 
 
